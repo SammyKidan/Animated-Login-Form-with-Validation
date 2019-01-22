@@ -1,0 +1,65 @@
+<!DOCTYPE html>-
+<html lang="en" dir="ltr">
+    <head>
+      <title></title>
+        <meta charset="utf-8">
+        <link href="Main.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        <script src="jquery-1.10.2.min.js"></script>
+        <script src="JQUERY%20Main.js"></script>
+    </head>
+    <body>
+        <div id="box">
+            <div id="main"></div>
+
+            <div id="loginform">
+                <h1>LOGIN</h1>
+
+                    <div  class="errormsg" id="errormsg-fields">
+                    <h5><i class="fas fa-exclamation-circle" id="i"></i>Please fill in all forms!</h5>
+                    </div>
+
+                    <div class="errormsg"id="errormsg-email">
+                    <h5><i class="fas fa-exclamation-circle" id="i"></i>Please enter a valid email address</h5>
+                    </div>
+
+                    <div class="errormsg"id="validmsg">
+                    <h5 id="validH5"><i class="fas fa-check-circle" id="i"></i>Correct</h5>
+                    </div>
+
+
+                <input type="email" placeholder="Email" id="emailInput"/><br>
+                <input type="password" placeholder="Password" id="passwordInput"/><br>
+                <button id="login_btn2">Login</button>
+            </div>
+
+            <div id="signupform">
+                <h1>SIGN UP</h1>
+
+                <div  class="errormsg" id="errormsg-fields2">
+                <h5><i class="fas fa-exclamation-circle" id="i"></i>Please fill in all forms!</h5>
+                </div>
+
+                <div class="errormsg" id="errormsg-email2">
+                <h5><i class="fas fa-exclamation-circle" id="i"></i>Please enter a valid email address</h5>
+                </div>
+
+                <div class="errormsg"id="validmsg2">
+                <h5 id="validH5"><i class="fas fa-check-circle" id="i"></i>Correct</h5>
+                </div>
+                <input type="text" placeholder="Full Name" id="nameInput2"/><br>
+                <input type="email" placeholder="Email" id="emailInput2"/><br>
+                <input type="password" placeholder="Password" id="passwordInput2"/><br>
+                <button id="signup_btn2">Sign Up</button>
+            </div>
+
+            <div id="login_msg">Have an account?</div>
+            <div id="signup_msg">Don't have an account?</div>
+
+            <button id="login_btn">Login</button>
+            <button id="signup_btn">Sign Up</button>
+
+
+        </div>
+    </body>
+</html>
